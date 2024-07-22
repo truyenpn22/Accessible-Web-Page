@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accessible Web Page</title>
+    <title>Accessible and Cross-Browser Optimized Web Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
+    <!-- Header -->
     <header>
         <nav aria-label="Main Navigation">
             <ul>
@@ -20,9 +22,10 @@
         </nav>
     </header>
 
+    <!-- Main Content -->
     <main id="main-content">
         <section aria-labelledby="home">
-            <h1 id="home">Welcome to Our Accessible Website</h1>
+            <h1 id="home">Welcome to Our Accessible and Cross-Browser Optimized Website</h1>
             <p>We aim to make our website accessible to everyone, including people with disabilities.</p>
         </section>
 
@@ -30,6 +33,21 @@
             <h2 id="about">About Us</h2>
             <p>Learn more about our mission and values.</p>
         </section>
+
+        <article aria-labelledby="latest-blog-post">
+            <h2 id="latest-blog-post">Latest Blog Post</h2>
+            <p>This is an example of an article. Articles contain self-contained content that is relevant and can be
+                independently distributed.</p>
+        </article>
+
+        <aside aria-labelledby="related-links">
+            <h2 id="related-links">Related Links</h2>
+            <ul>
+                <li><a href="#link1">Link 1</a></li>
+                <li><a href="#link2">Link 2</a></li>
+                <li><a href="#link3">Link 3</a></li>
+            </ul>
+        </aside>
 
         <section aria-labelledby="contact">
             <h2 id="contact">Contact Us</h2>
@@ -51,6 +69,7 @@
         </section>
     </main>
 
+    <!-- Footer -->
     <footer>
         <p>&copy; 2024 Accessible Web. All rights reserved.</p>
     </footer>
